@@ -1,0 +1,33 @@
+{
+  "name": "gulp ng template",
+  "version": "1.0.0",
+  "description": "gulp ng template",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "server": "php -S 127.0.0.1:8001",
+    "server-stop": "pkill -9 php",
+    "watch": "gulp watch",
+    "help": "gulp help"
+  },
+  "author": "Peter Carrero <peter.carrero@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.5",
+    "gulp-debug": "^2.1.2",
+    "gulp-help": "^1.6.1",
+    "gulp-iife": "^0.2.4",
+    "gulp-jshint": "^1.11.2",
+    "gulp-livereload": "^3.8.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-wrap": "^0.11.0",
+    "jshint-stylish": "^2.0.1"
+  }
+}
